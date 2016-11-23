@@ -1,0 +1,52 @@
+### LINES
+lines.linewidth   : 1.5
+
+### FONT
+font.family         : serif
+font.size           : 14
+
+### AXES
+axes.linewidth      : 1.5
+axes.grid           : False
+axes.titlesize      : x-large
+axes.labelsize      : large
+axes.formatter.limits         : -5, 5
+axes.formatter.useoffset      : False
+axes.prop_cycle: cycler('color', ['4584CC', '479657', 'C22F27', '9354B0', '5FC7C2', 'ED8721', '797E85']) + cycler('marker', ['o', 's', '^', 'D', '*', 'p', 'v'])
+
+### TICKS
+xtick.major.size     : 8
+xtick.minor.visible  : True
+xtick.minor.size     : 4
+xtick.major.width    : 1.5
+xtick.minor.width    : 1.0
+xtick.labelsize      : medium
+xtick.direction      : in
+
+ytick.major.size     : 8
+ytick.minor.visible  : True
+ytick.minor.size     : 4
+ytick.major.width    : 1.5
+ytick.minor.width    : 1.0
+ytick.labelsize      : medium
+ytick.direction      : in
+
+
+### Legend
+legend.numpoints     : 1
+legend.fontsize      : medium
+legend.scatterpoints : 1
+
+### FIGURE
+figure.titlesize : large
+figure.figsize   : 6, 4
+figure.dpi       : 150
+
+### ERRORBAR PLOTS
+errorbar.capsize : 3
+
+### SAVING FIGURES
+savefig.dpi        : 150
+savefig.format     : pdf
+savefig.bbox       : tight
+pdf.fonttype       : 42
