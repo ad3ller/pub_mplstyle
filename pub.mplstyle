@@ -35,7 +35,7 @@ ytick.direction      : in
 ### Legend
 legend.numpoints     : 1
 legend.fontsize      : medium
-legend.scatterpoints : 1
+legend.scatterpoints : 3
 
 ### FIGURE
 figure.titlesize : large
