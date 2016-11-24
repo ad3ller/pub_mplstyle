@@ -13,10 +13,16 @@ style.use('https://raw.githubusercontent.com/ad3ller/pub_mplstyle/master/pub.mpl
 
 The style sheet changes the default output to 150 dpi pdf with bbox='tight'.
 
-Using ``` %matplotlib inline ```  in Jupyter apparently overrides font.size.  To fix, simply run
+By default the style does no use tex fonts, as it slows things down.  To enable,
 
 ```python
 import matplotlib.pyplot as plt
+plt.rcParams['text.usetex'] = True
+```
+
+Using ``` %matplotlib inline ```  in Jupyter apparently overrides font.size.  To fix, simply run
+
+```python
 plt.rcParams['font.size'] = 14
 ```
 
