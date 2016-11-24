@@ -1,7 +1,7 @@
 # pub_mplstyle
 A simple matplotlib style sheet with serif fonts and minor ticks.
 
-![example plot](/examples/example.png)
+<img src="/examples/example.png" alt="example plot" width="400px">
 
 ## Usage
 The style sheet can be called using the github URL or a local path.
