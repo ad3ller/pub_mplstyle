@@ -13,7 +13,7 @@ style.use('https://raw.githubusercontent.com/ad3ller/pub_mplstyle/master/pub.mpl
 
 The style sheet changes the default output to 150 dpi pdf with bbox='tight'.
 
-By default the style does no use tex fonts, as it slows things down.  To enable,
+By default the style does not use tex fonts, as it slows things down.  To enable,
 
 ```python
 import matplotlib.pyplot as plt
