@@ -12,7 +12,7 @@ axes.titlesize      : x-large
 axes.labelsize      : large
 axes.formatter.limits         : -5, 5
 axes.formatter.useoffset      : False
-axes.prop_cycle: cycler('color', ['4584CC', '479657', 'C22F27', '000d1a', 'BD95D3', 'ED8721', '797E85']) + cycler('marker', ['o', 's', '^', '*', 'D', 'p', 'v'])  + cycler('markerfacecolor', ['5898E0', '3C804A', 'C22F27', '3F4142', 'E4CEF0', 'DC7E1F', 'D2D3D4']) +  cycler('alpha', [0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9])
+axes.prop_cycle: cycler('color', ['4584CC', '479657', 'C22F27', '000d1a', 'BD95D3', 'ED8721', '797E85']) + cycler('marker', ['o', 's', '^', '*', 'D', 'p', 'v'])
 
 ### TICKS
 xtick.major.size     : 8
