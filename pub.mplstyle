@@ -4,6 +4,8 @@ lines.linewidth   : 1.5
 ### FONT
 font.family         : serif
 font.size           : 14
+mathtext.fontset    : cm
+mathtext.rm         : serif
 
 ### AXES
 axes.linewidth      : 1.5
@@ -15,6 +17,9 @@ axes.formatter.useoffset      : False
 axes.prop_cycle: cycler('color', ['4584CC', '479657', 'C22F27', '000d1a', 'BD95D3', 'ED8721', '797E85']) + cycler('marker', ['o', 's', '^', '*', 'D', 'p', 'v'])
 
 ### TICKS
+xtick.top            : True
+ytick.right          : True
+
 xtick.major.size     : 8
 xtick.minor.visible  : True
 xtick.minor.size     : 4
